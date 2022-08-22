@@ -1,0 +1,51 @@
+body{   
+    background-color: #E0BBE4;
+}
+
+
+.carrosel{
+    box-shadow: 8px 15px #808080be;
+    border: solid #ffffff 5px;
+    margin-top: 5%;
+    margin-left: 35%;
+    border-radius: 35px;
+    width: 450px;
+    height: 600px;
+    overflow: hidden;
+}
+
+.carrosel .fotos{
+    width: 1100%;
+    animation: animacao 50s infinite;
+}
+
+.carrosel .fotos img{
+    width: 450px;
+}
+
+@keyframes animacao{
+    0%{margin-left: 0%;}
+    10%{margin-left: 0%;}
+    11%{margin-left: -101%;}
+    20%{margin-left: -101%;}
+    21%{margin-left: -201%;}
+    30%{margin-left: -201%;}
+    31%{margin-left: -302%;}
+    40%{margin-left: -302%;}
+    41%{margin-left: -403%;}
+    50%{margin-left: -403%;}
+    51%{margin-left: -504%;}
+    60%{margin-left: -504%;}
+    61%{margin-left: -606%;}
+    70%{margin-left: -606%;}
+    71%{margin-left: -707%;}
+    80%{margin-left: -707%;}
+    81%{margin-left: -808%;}
+    90%{margin-left: -808%;}
+    91%{margin-left: -909%;}
+    99%{margin-left: -909%;}
+    100%{margin-left: 1010%;}
+
+
+
+}
